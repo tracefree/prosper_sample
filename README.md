@@ -10,6 +10,8 @@ Binaries are coming soon™.
 ## Build
 ### Unix
 
+Requirements: You need to have installed SDL3, Vulkan SDK, and glm on your system.
+
 Clone the repository and execute the following commands with a terminal inside the directory:
 
 ```
