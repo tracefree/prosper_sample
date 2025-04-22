@@ -10,7 +10,7 @@ Binaries are coming soon™.
 ## Build
 ### Unix
 
-Requirements: You need to have installed SDL3 and Vulkan SDK on your system.
+Requirements: You need to have installed SDL3, Vulkan SDK, and the Vulkan utility libraries on your system.
 
 Clone the repository and execute the following commands with a terminal inside the directory:
 
