@@ -1,0 +1,15 @@
+Textures:
+  - name: Leather014_1K-JPG_NormalGL
+    sRGB: false
+  - name: Leather014_1K-JPG_Color
+    sRGB: true
+  - name: human-skin-freckled_normal-ogl
+    sRGB: false
+  - name: human-skin-freckled_albedo copy
+    sRGB: true
+  - name: hair_1
+    sRGB: true
+  - name: Fabric030_1K-JPG_NormalGL
+    sRGB: false
+  - name: Fabric030_1K-JPG_Color_lighter
+    sRGB: true

@@ -1,0 +1,1 @@
+ktx create --cubemap --format R8G8B8A8_SRGB --zstd 18 --assign-oetf srgb --assign-primaries bt709 sunsetflat_ft.jpg sunsetflat_bk.jpg sunsetflat_up.jpg sunsetflat_dn.jpg sunsetflat_rt.jpg sunsetflat_lf.jpg skybox.ktx2

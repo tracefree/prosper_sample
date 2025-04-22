@@ -1,0 +1,9 @@
+name: Player
+components:
+  - type: model
+    path: assets/models/character.glb
+    skinned: true
+    root_motion_index: 46
+  - type: animation_player
+  - type: character_controller
+  - type: state_machine

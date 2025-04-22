@@ -1,0 +1,5 @@
+Textures:
+  - name: krapfen_n
+    sRGB: false
+  - name: krapfen_a
+    sRGB: true
