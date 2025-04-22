@@ -2,7 +2,7 @@
 
 This is an example project that can be inspected to see how my custom game engine [Prosper](https://github.com/tracefree/prosper) can be used and showcases some of its features. It is an extremely simple 3D game where you must collect seven krapfens scattered around the famous Sponza scene. Each krapfen you eat increases your jump height, making it possible to reach higher areas.
 
-![prosper_sample_screenshot](https://github.com/user-attachments/assets/59311e7a-67a9-4c63-a2e5-8481bf9916aa)
+![prosper_sample_screenshot](https://github.com/user-attachments/assets/7374ebc1-24d6-4824-a8a6-4846fa594fb6)
 
 ## Install
 Binaries are coming soon™.
