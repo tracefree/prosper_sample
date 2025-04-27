@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 3.21)
 project(prosper_sample VERSION 0.1 LANGUAGES CXX C)
 
 include(FetchContent)
