@@ -26,13 +26,13 @@ int main(int argc, char * argv[]) {
     if (argc == 3 && strcmp(argv[1], "--scene") == 0) {
         initial_level_path = argv[2];
     } else {
-        initial_level_path = "level.yaml";
+        initial_level_path = "data/level.yaml";
     }
 
     Ref<Node> level = (*ResourceManager::load<Scene>(initial_level_path))->instantiate();
     scene.root->add_child(level);
 
-    player = (*ResourceManager::load<Scene>("player.yaml"))->instantiate();
+    player = (*ResourceManager::load<Scene>("data/player.yaml"))->instantiate();
     scene.root->add_child(player);
     
     bool running = true;

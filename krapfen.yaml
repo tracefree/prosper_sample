@@ -1,6 +1,0 @@
-name: Krapfen
-components:
-- type: model
-  path: assets/models/krapfen.glb
-- type: collectible
-

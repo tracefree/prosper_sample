@@ -1,4 +1,5 @@
 *.imported
 build/
+lib/
 prosper_sample
 .vscode/
