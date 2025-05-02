@@ -14,11 +14,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE $<1:${CMAKE_SOURCE_DIR}>)
 set(CMAKE_CXX_FLAGS                " ${CMAKE_CXX_FLAGS_INIT} -static-libgcc -std=c++20 -fPIC")
 set(CMAKE_CXX_FLAGS_DEBUG          " ${CMAKE_CXX_FLAGS_INIT} -static-libgcc -std=c++20 -fPIC -g -DDEBUG")
 set(CMAKE_CXX_FLAGS_MINSIZEREL     " ${CMAKE_CXX_FLAGS_INIT} -static-libgcc -std=c++20 -fPIC -Os -DNDEBUG -s")
-set(CMAKE_CXX_FLAGS_RELEASE        " ${CMAKE_CXX_FLAGS_INIT} -static-libgcc -std=c++20 -fPIC -O2 -DNDEBUG -s -flto -fno-fat-lto-objects")
+set(CMAKE_CXX_FLAGS_RELEASE        " ${CMAKE_CXX_FLAGS_INIT} -static-libgcc -std=c++20 -fPIC -O1 -DNDEBUG -s -flto -fno-fat-lto-objects")
 set(CMAKE_CXX_FLAGS_RELWITHDEBINFO " ${CMAKE_CXX_FLAGS_INIT} -static-libgcc -std=c++20 -fPIC -O2 -g -DDEBUG")
 
 # Prosper
-set(PROSPER_PREFER_SYSTEM_LIBRARIES OFF)
+set(PROSPER_PREFER_SYSTEM_LIBRARIES ON)
 FetchContent_Declare(
     prosper
     GIT_REPOSITORY https://github.com/tracefree/prosper
